@@ -1,0 +1,11 @@
+Tkinter Geometry Managers
+Tkinter provides geometry managers to control how widgets are arranged inside a window. The three main geometry managers are:
+
+1. pack() method
+The pack() method places widgets in blocks. One can control their position and whether they expand to fill the available space.
+
+2. grid() method
+The grid() method arranges widgets in a grid of rows and columns. Widgets can span multiple rows or columns using rowspan and columnspan.
+
+3. place() method
+The place() method positions widgets at specific x and y coordinates. You can specify absolute or relative positions.

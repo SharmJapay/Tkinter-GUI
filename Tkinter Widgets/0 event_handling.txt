@@ -1,0 +1,28 @@
+Event Handling in Tkinter
+In Tkinter, events are actions that occur when a user interacts with the GUI, such as pressing a key, clicking a mouse button or resizing a window. Event handling allows us to define how our application should respond to these interactions.
+
+A. Events and Bindings
+Events in Tkinter are captured and managed using a mechanism called bindings. A binding links an event to a callback function (also known as an event handler) that is called when the event occurs. Below is the syntax:
+
+widget.bind(event, handler)
+
+* widget: The Tkinter widget you want to bind the event to.
+
+* event: A string that specifies the type of event (e.g., <Button-1> for a left mouse click).
+
+* handler: The callback function that will be executed when the event occurs.
+
+B. Key and Mouse Events
+Key events are triggered when a user presses a key on the keyboard. Mouse events are triggered by mouse actions, such as clicking or moving the mouse.
+
+Explanation:
+* The on_mouse_motion function is called whenever the mouse moves in the window.
+
+* Multiple event types can be handled at the same time.
+
+C. Event Object
+The event object is passed to the callback function when an event occurs. It contains useful information about the event, such as:
+
+event.keysym: The key symbol (e.g., 'a', 'Enter').
+event.x and event.y: The x and y coordinates of the mouse event.
+event.widget: The widget that triggered the event.

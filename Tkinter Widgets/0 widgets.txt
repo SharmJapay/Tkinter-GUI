@@ -1,0 +1,36 @@
+The 18 Widgets in ttk
+
+As documented in the Python tkinter.ttk Module, ttk comes with exactly 18 widgets. Twelve of these are modernized versions of classic tkinter widgets, while six are entirely new. [1] (https://docs.python.org/3/library/tkinter.ttk.html)
+
+Modernized Classic Replacements:
+1 Button: A clickable button to trigger actions.
+2 Checkbutton: A box to toggle multiple "on/off" or predefined options.
+3 Entry: A single-line text field for user input.
+4 Frame: A simple rectangular container used to organize layouts.
+5 Label: A widget used to display static text or images.
+6 LabelFrame: A container frame that includes a decorative border and a text label.
+7 Menubutton: A button that drops down a list of menu options when clicked.
+8 PanedWindow: A geometry manager widget that manages adjustable split panes.
+9 Radiobutton: A toggle to select a single choice from mutually exclusive options.
+10 Scale: A graphical slider used to pick a value from a range.
+11 Scrollbar: A slider used to scroll through another widget's contents vertically or horizontally.
+12 Spinbox: An entry widget combined with small up/down arrows to step through values. [1] (https://www.youtube.com/watch?v=xYqWu7ZF4rk&t=29), [2] (https://dev.to/shadowclaw11/list-of-widgets-in-tkinter-5b4n), [3] (https://tkdocs.com/tutorial/widgets.html), [4] (https://docs.python.org/3/library/tkinter.ttk.html)
+
+New Widgets Exclusive to ttk:
+1 Combobox: A text entry field combined with a dropdown list of choices.
+2 Notebook: A tabbed container that manages multiple window views using selectable tabs.
+3 Progressbar: A visual bar indicating the progress of a long-running operation.
+4 Separator: A horizontal or vertical line used to separate distinct UI sections.
+5 Sizegrip: A small corner handle used to resize the application window.
+6 Treeview: A hierarchical tree layout that organizes items into columns and expandable rows. [1] (https://www.youtube.com/watch?v=hoiMu6wto1c&t=518), [2] (https://docs.python.org/3/library/tkinter.ttk.html)
+
+Classic Widgets Exclusive to tkinter
+
+While ttk covers most fundamental components, there are several powerful classic widgets that do not have a ttk equivalent. If you need these behaviors, you must import and use the standard tkinter version:
+
+1 Canvas: A high-performance widget used for drawing shapes, images, graphs, and custom complex widgets.
+2 Text: A full-featured, multi-line text editor widget supporting advanced formatting and embedded tags.
+3 Menu: The native container used to create top-level drop-down menu bars or right-click popups.
+4 Listbox: A simple scrollable box containing a list of strings for the user to select from.
+5 Message: A multi-line label wrapper automatically formatted to wrap text neatly.
+6 Toplevel: A separate, pop-up window independent of the main app window. [1] (https://dev.to/shadowclaw11/list-of-widgets-in-tkinter-5b4n), [2] (https://www.youtube.com/watch?v=xYqWu7ZF4rk&t=29)
